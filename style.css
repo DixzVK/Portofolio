@@ -407,6 +407,20 @@
     scrollbar-width: thin;
     scrollbar-color: var(--accent) rgba(255,255,255,0.05);
   }
+
+  .typing {
+    min-height: 1.5em; /* tinggi tetap supaya tidak goyang */
+    display: inline-block;
+    white-space: nowrap; /* teks satu baris */
+  }
+  #typing {
+    display: inline-block;
+  }
+  
+  .typing {
+    font-family: monospace, sans-serif;
+    letter-spacing: 0.05em;
+  }  
   
   /* ------- Responsive ------- */
   @media (max-width: 1024px) {
