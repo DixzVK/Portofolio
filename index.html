@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dh17x — Front-End Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+  <script defer src="typing.js"></script>
+  <script defer src="reveal.js"></script>
+  <script defer src="comment.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="logo">Dh17x</a>
+      <nav class="navbar" id="navbar">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#showcase">Portfolio</a>
+        <a href="#connect">Contact</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero section">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="accent">Dh17x</span></h1>
+        <p class="typing"><span id="typing"></span></p>
+        <div class="cta">
+          <a class="btn btn-accent" href="#showcase">Projects</a>
+          <a class="btn btn-ghost" href="#connect">Contact me</a>
+        </div>
+      </div>
+    </div>
+    <!-- aksen gradient tipis -->
+    <div class="hero-glow" aria-hidden="true"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container split about-inner reveal">
+      <div class="about-media">
+        <!-- avatar anime sesuai permintaan -->
+        <img src="images/Makima.jpg" alt="Profile avatar Dhiex" class="avatar"/>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          Saya front-end developer yang fokus pada UI modern, performa, dan aksesibilitas.
+          Saya suka membangun antarmuka yang bersih, responsif, dan menyenangkan dipakai.
+        </p>
+        <p>
+          Tooling harian: HTML, CSS (Utility & BEM), JavaScript, dan integrasi sederhana
+          dengan API. Saya juga memperhatikan detail mikro—spasi, ritme vertikal, dan animasi halus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Services</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>💻 Web Development</h3>
+          <p>Website responsif, cepat, dan mudah dikelola, siap produksi.</p>
+        </article>
+        <article class="card">
+          <h3>🎨 UI/UX Refinement</h3>
+          <p>Perapihan layout, hierarki visual, dan micro-interaction.</p>
+        </article>
+        <article class="card">
+          <h3>⚡ Performance & SEO</h3>
+          <p>Optimasi kecepatan, struktur semantik, dan praktik terbaik.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+ <!-- Showcase -->
+<section id="showcase" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Portofolio Showcase</h2>
+  
+      <!-- Projects -->
+      <h3 class="sub-title">Projects</h3>
+      <div class="showcase-grid">
+        <div class="item">
+          <div class="item-img" style="background-image:url('images/1.jpg')"></div>
+          <div class="overlay">
+            <h3>Landing Page</h3>
+            <p>Modern website design</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <div class="item-img" style="background-image:url('images/2.jpg')"></div>
+          <div class="overlay">
+            <h3>Dashboard</h3>
+            <p>Web application UI</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Certificates -->
+      <h3 class="sub-title">Certificates</h3>
+      <div class="showcase-grid">
+        <div class="item">
+          <div class="item-img" style="background-image:url('images/3.jpg')"></div>
+          <div class="overlay">
+            <h3>Web Development</h3>
+            <p>Completion Certificate</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <div class="item-img" style="background-image:url('images/3.jpg')"></div>
+          <div class="overlay">
+            <h3>UI/UX Design</h3>
+            <p>Workshop Certificate</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Tech Stack -->
+        <h3 class="sub-title">Tech Stack</h3>
+        <div class="tech-stack">
+        <div class="stack">
+            <img src="icons/html.svg" alt="HTML5 logo"/>
+            <span>HTML5</span>
+        </div>
+        <div class="stack">
+            <img src="icons/css.svg" alt="CSS3 logo"/>
+            <span>CSS3</span>
+        </div>
+        <div class="stack">
+            <img src="icons/javascript.svg" alt="JavaScript logo"/>
+            <span>JavaScript</span>
+        </div>
+        <div class="stack">
+            <img src="icons/php.svg" alt="PHP logo"/>
+            <span>PHP</span>
+        </div>
+        <div class="stack">
+            <img src="icons/mysql.svg" alt="MySQL logo"/>
+            <span>MySQL</span>
+        </div>
+    </div>
+  
+  <!-- Connect With Me + Komentar -->
+<section id="connect" class="section">
+    <div class="container reveal connect-grid">
+      <!-- Kiri: Sosial Media -->
+      <div class="social-side">
+        <h2 class="section-title">Connect With Me</h2>
+        <ul class="connect-bar">
+          <li>
+            <a href="https://instagram.com/dh17x" target="_blank">
+              <img src="icons/instagram.svg" alt="Instagram"/>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://tiktok.com" target="_blank">
+              <img src="icons/tiktok.svg" alt="TikTok"/>
+              <span>TikTok</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <img src="icons/linkedin.svg" alt="LinkedIn"/>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/DixzVK" target="_blank">
+              <img src="icons/github.svg" alt="GitHub"/>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Kanan: Komentar -->
+      <div class="comment-side">
+        <h2 class="section-title">Comments</h2>
+        <form id="comment-form" class="comment-form">
+            <input type="text" name="nama" placeholder="Nama Anda" required />
+            <textarea name="pesan" placeholder="Tulis pesan di sini..." rows="4" required></textarea>
+            <button type="submit" class="btn btn-accent">Kirim</button>
+          </form>
+          
+          <div id="form-status"></div>          
+      </div>
+    </div>
+  </section>  
+
+  <!-- Footer tipis -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Dh17x — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
